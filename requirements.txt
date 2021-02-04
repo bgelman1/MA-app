@@ -1,10 +1,8 @@
 pandas
-matplotlib.pyplot
+matplotlib
 geopandas
-plotly.graph_objects
-plotly.io
+plotly
 json
-plotly.express
 dash
 dash_core_components
 dash_html_components
