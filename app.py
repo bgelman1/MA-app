@@ -2,7 +2,7 @@
 """
 Created on Sat Jan 23 18:15:47 2021
 
-@author: zevged
+@author: zevge
 """
 
 
@@ -17,8 +17,6 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import json
-
-
 
 
 
@@ -177,6 +175,7 @@ def update_output(race_slctd, in_out):
         thicknessmode="pixels", thickness=50
         
 ))
+    
        
     return fig
                            
@@ -197,3 +196,4 @@ def update_output(race_slctd, in_out):
 if __name__ == '__main__':
     app.run_server()
 server = app.server
+
