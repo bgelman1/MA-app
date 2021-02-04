@@ -190,3 +190,4 @@ def update_output(race_slctd, in_out):
 
 if __name__ == '__main__':
     app.run_server()
+server = app.server()
