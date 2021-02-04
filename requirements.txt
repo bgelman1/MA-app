@@ -1,0 +1,11 @@
+pandas
+matplotlib.pyplot
+geopandas
+plotly.graph_objects
+plotly.io
+json
+plotly.express
+dash
+dash_core_components
+dash_html_components
+json
