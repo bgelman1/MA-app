@@ -2,7 +2,7 @@
 """
 Created on Sat Jan 23 18:15:47 2021
 
-@author: zevge
+@author: zevged
 """
 
 
@@ -17,6 +17,12 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 import json
+
+
+
+
+
+
 #read in and merge voting data
 hist = pd.DataFrame()
 dist = pd.read_csv('district.csv')
@@ -190,4 +196,4 @@ def update_output(race_slctd, in_out):
 
 if __name__ == '__main__':
     app.run_server()
-server = app.server()
+server = app.server
