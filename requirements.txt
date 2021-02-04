@@ -2,7 +2,5 @@ pandas
 matplotlib
 geopandas
 plotly
-json
 dash
-dash_core_components
-dash_html_components
+
