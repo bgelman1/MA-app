@@ -1,1 +1,1 @@
-web: gunicorn updated_heatmap:server
+web: gunicorn app:server
