@@ -104,7 +104,10 @@ geo_world_ok = {'type': 'FeatureCollection', 'features': towns_geo}
 
 #make map
 
-app = dash.Dash()
+
+app = dash.Dash(__name__)
+
+server = app.server
 app.layout = html.Div([
     dcc.Dropdown(
         id='demo-dropdown',
@@ -195,5 +198,5 @@ def update_output(race_slctd, in_out):
 
 if __name__ == '__main__':
     app.run_server()
-server = app.server
+
 
